@@ -82,6 +82,6 @@ function uploadFile(name) {
         }
     });
 
-    let formData = new formData(form);
+    let formData = new FormData(form);
     xhr.send(formData);
 }
