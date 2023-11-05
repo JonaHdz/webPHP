@@ -43,11 +43,11 @@ function uploadFile(name) {
         let fileLoaded = Math.floor((loaded / total) * 100);
         let fileTotal = Math.floor(total / 1000);
         let fileSize;
-        (fileTotal < 1024) ? fileSize = fileTotal + "KB" : fileSize = (loaded / (1024 * 1024).toFixed(2) + " MB")
+        (fileTotal < 1024) ? fileSize = fileTotal + " KB" : fileSize = (loaded / (1024 * 1024)).toFixed(2) + " MB";
         let progressHTML = `<li class="row">
                                 <i class="fas fa-file-alt"></i>
                                 <div class="contenido">
-                                    <div class="detallers">
+                                    <div class="detalles">
                                         <span class="nombre">${name} &bullet; Subiendo</span>
                                         <span class="porcentaje">${fileLoaded}%</span>
                                     </div>
