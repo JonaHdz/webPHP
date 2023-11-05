@@ -31,7 +31,7 @@ function preUploadFile(file) {
             let splitName = filename.split('.');
             filename = splitName[0].substring(0, 12) + "... ." + splitName[1];
         }
-        preUploadFile(filename);
+        uploadFile(filename);
     }
 }
 
