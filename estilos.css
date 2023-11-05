@@ -91,7 +91,7 @@ div .detalles span{
     overflow-y: scroll;
 }
 /* creo que deberia haber una separaacion abajo */
-.subido-area.onprogress{
+.subido-area .onprogress{
     max-height: 150px;
 }
 .subido-area::-webkit-scrollbar{
