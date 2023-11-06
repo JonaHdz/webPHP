@@ -82,7 +82,7 @@ div .detalles span{
 }
 .progreso-bar .progreso{
     height: 100px;
-    width: 0%;
+    width: 1%;
     background-color: #f26997;
     border-radius: inherit;
 }
@@ -111,7 +111,7 @@ div .detalles span{
     color: #404040;
 }
 .subido-area .fa-check{
-    color: #f26997;
+    color: #6990f2;
     font-size: 16px;
 }
 
