@@ -82,7 +82,7 @@ div .detalles span{
 }
 .progreso-bar .progreso{
     height: 100px;
-    width: 1%;
+    width: 1px;
     background-color: #f26997;
     border-radius: inherit;
 }
