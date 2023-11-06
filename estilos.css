@@ -81,9 +81,9 @@ div .detalles span{
     border-radius: 30px;
 }
 .progreso-bar .progreso{
-    height: 100px;
-    width: 1px;
-    background-color: #f26997;
+    height: 100%;
+    width: 0%;
+    background-color: #6990f2;
     border-radius: inherit;
 }
 .subido-area{
